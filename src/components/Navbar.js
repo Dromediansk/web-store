@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
+import React, { PureComponent } from 'react';
 import { Link } from 'react-router-dom';
 import Logo from '../logo.svg';
 import styled from 'styled-components';
 import { ButtonContainer } from './Button';
 
-export default class Navbar extends Component {
+export default class Navbar extends PureComponent {
   render() {
     return (
       <NavWrapper className="navbar navbar-expand-sm navbar-dark px-sm-5">
