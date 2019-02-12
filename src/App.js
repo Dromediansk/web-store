@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 //importing components
 import Navbar from './components/Navbar';
+import LandingPage from './components/LandingPage/LandingPage';
 import ProductList from './components/ProductList';
 import Details from './components/Details';
 import Cart from './components/Cart';
@@ -17,7 +18,8 @@ class App extends Component {
       <React.Fragment>
         <Navbar />
         <Switch>
-          <Route exact path="/" component={ProductList} />
+          <Route exact path="/" component={LandingPage} />
+          <Route path="/store" component={ProductList} />
           <Route path="/details" component={Details} />
           <Route path="/cart" component={Cart} />
           <Route component={Default} />
