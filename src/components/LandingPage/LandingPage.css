@@ -1,8 +1,43 @@
 .jumbotron {
+    margin: 0;
     color: white;
     background-image: url("./header.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 60vh;
+  }
+
+  .options, .options * {
+    padding: 0;
+    margin: 0;
+  }
+
+  .e-shop-text {
+    display: flex;
+    height: 40vh;
+    align-items: center;
+  }
+
+  .e-shop {
+    background-image: url("./e-shop.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-filter: blur(5px); /* Safari */
+    filter: blur(2px);
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 0;
+  }
+
+  .e-shop .cart-img {
+    position: absolute;
+    margin: auto;
+  }
+
+  .e-shop i {
+    font-size: 5rem;
   }
