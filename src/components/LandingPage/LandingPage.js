@@ -20,9 +20,10 @@ export default class LandingPage extends Component {
                 <p>Browse our shop, choose a product and let deliver it to your home in few minutes</p>
               </div>
             </div>
-            <div className="col-sm e-shop">
+            <div className="col-sm e-shop-container">
+              <div className="e-shop"></div>
               <div className="cart-img container">
-                <i class="fas fa-shopping-cart"></i>
+                <i className="fas fa-shopping-cart"></i>
               </div>
             </div>
           </div>
