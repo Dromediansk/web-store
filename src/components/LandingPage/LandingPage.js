@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {Link} from 'react-router-dom';
 import './LandingPage.css';
 
 export default class LandingPage extends Component {
@@ -22,9 +23,11 @@ export default class LandingPage extends Component {
             </div>
             <div className="col-sm e-shop-container">
               <div className="e-shop"></div>
-              <div className="cart-img container">
-                <i className="fas fa-shopping-cart"></i>
-              </div>
+                <div className="cart-img container">
+                  <Link to="/store">
+                    <i className="fas fa-shopping-cart"></i>
+                  </Link>
+                </div>
             </div>
           </div>
         </div>
