@@ -1,7 +1,7 @@
 .jumbotron {
     margin: 0;
     color: white;
-    background-image: url("./header.jpg");
+    background-image: url("../../minified/images/header.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -27,7 +27,7 @@
   }
 
   .e-shop {
-    background-image: url("./e-shop.jpg");
+    background-image: url("../../minified/images/e-shop.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
