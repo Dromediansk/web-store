@@ -27,6 +27,8 @@
     "not op_mini all"
   ],
   "devDependencies": {
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.9.1",
     "gulp": "^4.0.0",
     "gulp-imagemin": "^5.0.3"
   }

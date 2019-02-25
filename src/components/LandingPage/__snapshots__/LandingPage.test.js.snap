@@ -1,0 +1,897 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`expect to render LandingPage component 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <LandingPage />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <header
+          className="jumbotron jumbotron-fluid"
+        >
+          <div
+            className="container"
+          >
+            <h1
+              className="display-4"
+            >
+              Hello from Phone Arena
+            </h1>
+            <h3>
+              Offering the best quality products from proven suppliers.
+            </h3>
+          </div>
+        </header>,
+        <section>
+          <div
+            className="container-fluid text-center options"
+          >
+            <div
+              className="row"
+            >
+              <div
+                className="col-sm e-shop-text"
+              >
+                <div
+                  className="container"
+                >
+                  <h3>
+                    Pick your product
+                  </h3>
+                  <p>
+                    Browse our shop, choose a product and let deliver it to your home in few minutes
+                  </p>
+                </div>
+              </div>
+              <div
+                className="col-sm e-shop-container"
+              >
+                <div
+                  className="e-shop"
+                />
+                <div
+                  className="cart-img container"
+                >
+                  <Link
+                    replace={false}
+                    to="/store"
+                  >
+                    <i
+                      className="fas fa-shopping-cart"
+                    />
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <div
+            className="container"
+          >
+            <h1
+              className="display-4"
+            >
+              Hello from Phone Arena
+            </h1>
+            <h3>
+              Offering the best quality products from proven suppliers.
+            </h3>
+          </div>,
+          "className": "jumbotron jumbotron-fluid",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h1
+                className="display-4"
+              >
+                Hello from Phone Arena
+              </h1>,
+              <h3>
+                Offering the best quality products from proven suppliers.
+              </h3>,
+            ],
+            "className": "container",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Hello from Phone Arena",
+                "className": "display-4",
+              },
+              "ref": null,
+              "rendered": "Hello from Phone Arena",
+              "type": "h1",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Offering the best quality products from proven suppliers.",
+              },
+              "ref": null,
+              "rendered": "Offering the best quality products from proven suppliers.",
+              "type": "h3",
+            },
+          ],
+          "type": "div",
+        },
+        "type": "header",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <div
+            className="container-fluid text-center options"
+          >
+            <div
+              className="row"
+            >
+              <div
+                className="col-sm e-shop-text"
+              >
+                <div
+                  className="container"
+                >
+                  <h3>
+                    Pick your product
+                  </h3>
+                  <p>
+                    Browse our shop, choose a product and let deliver it to your home in few minutes
+                  </p>
+                </div>
+              </div>
+              <div
+                className="col-sm e-shop-container"
+              >
+                <div
+                  className="e-shop"
+                />
+                <div
+                  className="cart-img container"
+                >
+                  <Link
+                    replace={false}
+                    to="/store"
+                  >
+                    <i
+                      className="fas fa-shopping-cart"
+                    />
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <div
+              className="row"
+            >
+              <div
+                className="col-sm e-shop-text"
+              >
+                <div
+                  className="container"
+                >
+                  <h3>
+                    Pick your product
+                  </h3>
+                  <p>
+                    Browse our shop, choose a product and let deliver it to your home in few minutes
+                  </p>
+                </div>
+              </div>
+              <div
+                className="col-sm e-shop-container"
+              >
+                <div
+                  className="e-shop"
+                />
+                <div
+                  className="cart-img container"
+                >
+                  <Link
+                    replace={false}
+                    to="/store"
+                  >
+                    <i
+                      className="fas fa-shopping-cart"
+                    />
+                  </Link>
+                </div>
+              </div>
+            </div>,
+            "className": "container-fluid text-center options",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="col-sm e-shop-text"
+                >
+                  <div
+                    className="container"
+                  >
+                    <h3>
+                      Pick your product
+                    </h3>
+                    <p>
+                      Browse our shop, choose a product and let deliver it to your home in few minutes
+                    </p>
+                  </div>
+                </div>,
+                <div
+                  className="col-sm e-shop-container"
+                >
+                  <div
+                    className="e-shop"
+                  />
+                  <div
+                    className="cart-img container"
+                  >
+                    <Link
+                      replace={false}
+                      to="/store"
+                    >
+                      <i
+                        className="fas fa-shopping-cart"
+                      />
+                    </Link>
+                  </div>
+                </div>,
+              ],
+              "className": "row",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <div
+                    className="container"
+                  >
+                    <h3>
+                      Pick your product
+                    </h3>
+                    <p>
+                      Browse our shop, choose a product and let deliver it to your home in few minutes
+                    </p>
+                  </div>,
+                  "className": "col-sm e-shop-text",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <h3>
+                        Pick your product
+                      </h3>,
+                      <p>
+                        Browse our shop, choose a product and let deliver it to your home in few minutes
+                      </p>,
+                    ],
+                    "className": "container",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Pick your product",
+                      },
+                      "ref": null,
+                      "rendered": "Pick your product",
+                      "type": "h3",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Browse our shop, choose a product and let deliver it to your home in few minutes",
+                      },
+                      "ref": null,
+                      "rendered": "Browse our shop, choose a product and let deliver it to your home in few minutes",
+                      "type": "p",
+                    },
+                  ],
+                  "type": "div",
+                },
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <div
+                      className="e-shop"
+                    />,
+                    <div
+                      className="cart-img container"
+                    >
+                      <Link
+                        replace={false}
+                        to="/store"
+                      >
+                        <i
+                          className="fas fa-shopping-cart"
+                        />
+                      </Link>
+                    </div>,
+                  ],
+                  "className": "col-sm e-shop-container",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "className": "e-shop",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "div",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <Link
+                        replace={false}
+                        to="/store"
+                      >
+                        <i
+                          className="fas fa-shopping-cart"
+                        />
+                      </Link>,
+                      "className": "cart-img container",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": <i
+                          className="fas fa-shopping-cart"
+                        />,
+                        "replace": false,
+                        "to": "/store",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "className": "fas fa-shopping-cart",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "i",
+                      },
+                      "type": [Function],
+                    },
+                    "type": "div",
+                  },
+                ],
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+          "type": "div",
+        },
+        "type": "section",
+      },
+    ],
+    "type": Symbol(react.fragment),
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <header
+            className="jumbotron jumbotron-fluid"
+          >
+            <div
+              className="container"
+            >
+              <h1
+                className="display-4"
+              >
+                Hello from Phone Arena
+              </h1>
+              <h3>
+                Offering the best quality products from proven suppliers.
+              </h3>
+            </div>
+          </header>,
+          <section>
+            <div
+              className="container-fluid text-center options"
+            >
+              <div
+                className="row"
+              >
+                <div
+                  className="col-sm e-shop-text"
+                >
+                  <div
+                    className="container"
+                  >
+                    <h3>
+                      Pick your product
+                    </h3>
+                    <p>
+                      Browse our shop, choose a product and let deliver it to your home in few minutes
+                    </p>
+                  </div>
+                </div>
+                <div
+                  className="col-sm e-shop-container"
+                >
+                  <div
+                    className="e-shop"
+                  />
+                  <div
+                    className="cart-img container"
+                  >
+                    <Link
+                      replace={false}
+                      to="/store"
+                    >
+                      <i
+                        className="fas fa-shopping-cart"
+                      />
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <div
+              className="container"
+            >
+              <h1
+                className="display-4"
+              >
+                Hello from Phone Arena
+              </h1>
+              <h3>
+                Offering the best quality products from proven suppliers.
+              </h3>
+            </div>,
+            "className": "jumbotron jumbotron-fluid",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <h1
+                  className="display-4"
+                >
+                  Hello from Phone Arena
+                </h1>,
+                <h3>
+                  Offering the best quality products from proven suppliers.
+                </h3>,
+              ],
+              "className": "container",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Hello from Phone Arena",
+                  "className": "display-4",
+                },
+                "ref": null,
+                "rendered": "Hello from Phone Arena",
+                "type": "h1",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Offering the best quality products from proven suppliers.",
+                },
+                "ref": null,
+                "rendered": "Offering the best quality products from proven suppliers.",
+                "type": "h3",
+              },
+            ],
+            "type": "div",
+          },
+          "type": "header",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <div
+              className="container-fluid text-center options"
+            >
+              <div
+                className="row"
+              >
+                <div
+                  className="col-sm e-shop-text"
+                >
+                  <div
+                    className="container"
+                  >
+                    <h3>
+                      Pick your product
+                    </h3>
+                    <p>
+                      Browse our shop, choose a product and let deliver it to your home in few minutes
+                    </p>
+                  </div>
+                </div>
+                <div
+                  className="col-sm e-shop-container"
+                >
+                  <div
+                    className="e-shop"
+                  />
+                  <div
+                    className="cart-img container"
+                  >
+                    <Link
+                      replace={false}
+                      to="/store"
+                    >
+                      <i
+                        className="fas fa-shopping-cart"
+                      />
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <div
+                className="row"
+              >
+                <div
+                  className="col-sm e-shop-text"
+                >
+                  <div
+                    className="container"
+                  >
+                    <h3>
+                      Pick your product
+                    </h3>
+                    <p>
+                      Browse our shop, choose a product and let deliver it to your home in few minutes
+                    </p>
+                  </div>
+                </div>
+                <div
+                  className="col-sm e-shop-container"
+                >
+                  <div
+                    className="e-shop"
+                  />
+                  <div
+                    className="cart-img container"
+                  >
+                    <Link
+                      replace={false}
+                      to="/store"
+                    >
+                      <i
+                        className="fas fa-shopping-cart"
+                      />
+                    </Link>
+                  </div>
+                </div>
+              </div>,
+              "className": "container-fluid text-center options",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <div
+                    className="col-sm e-shop-text"
+                  >
+                    <div
+                      className="container"
+                    >
+                      <h3>
+                        Pick your product
+                      </h3>
+                      <p>
+                        Browse our shop, choose a product and let deliver it to your home in few minutes
+                      </p>
+                    </div>
+                  </div>,
+                  <div
+                    className="col-sm e-shop-container"
+                  >
+                    <div
+                      className="e-shop"
+                    />
+                    <div
+                      className="cart-img container"
+                    >
+                      <Link
+                        replace={false}
+                        to="/store"
+                      >
+                        <i
+                          className="fas fa-shopping-cart"
+                        />
+                      </Link>
+                    </div>
+                  </div>,
+                ],
+                "className": "row",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <div
+                      className="container"
+                    >
+                      <h3>
+                        Pick your product
+                      </h3>
+                      <p>
+                        Browse our shop, choose a product and let deliver it to your home in few minutes
+                      </p>
+                    </div>,
+                    "className": "col-sm e-shop-text",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <h3>
+                          Pick your product
+                        </h3>,
+                        <p>
+                          Browse our shop, choose a product and let deliver it to your home in few minutes
+                        </p>,
+                      ],
+                      "className": "container",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Pick your product",
+                        },
+                        "ref": null,
+                        "rendered": "Pick your product",
+                        "type": "h3",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Browse our shop, choose a product and let deliver it to your home in few minutes",
+                        },
+                        "ref": null,
+                        "rendered": "Browse our shop, choose a product and let deliver it to your home in few minutes",
+                        "type": "p",
+                      },
+                    ],
+                    "type": "div",
+                  },
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <div
+                        className="e-shop"
+                      />,
+                      <div
+                        className="cart-img container"
+                      >
+                        <Link
+                          replace={false}
+                          to="/store"
+                        >
+                          <i
+                            className="fas fa-shopping-cart"
+                          />
+                        </Link>
+                      </div>,
+                    ],
+                    "className": "col-sm e-shop-container",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "className": "e-shop",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "div",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <Link
+                          replace={false}
+                          to="/store"
+                        >
+                          <i
+                            className="fas fa-shopping-cart"
+                          />
+                        </Link>,
+                        "className": "cart-img container",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "children": <i
+                            className="fas fa-shopping-cart"
+                          />,
+                          "replace": false,
+                          "to": "/store",
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "className": "fas fa-shopping-cart",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": "i",
+                        },
+                        "type": [Function],
+                      },
+                      "type": "div",
+                    },
+                  ],
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+            "type": "div",
+          },
+          "type": "section",
+        },
+      ],
+      "type": Symbol(react.fragment),
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;
