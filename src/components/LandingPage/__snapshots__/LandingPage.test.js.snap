@@ -31,11 +31,13 @@ ShallowWrapper {
               Hello from Phone Arena
             </h1>
             <h3>
-              Offering the best quality products from proven suppliers.
+              Offering only the best quality products
             </h3>
           </div>
         </header>,
-        <section>
+        <section
+          className="zone main-section"
+        >
           <div
             className="container-fluid text-center options"
           >
@@ -78,6 +80,11 @@ ShallowWrapper {
             </div>
           </div>
         </section>,
+        <footer
+          className="zone yellow"
+        >
+          Footer
+        </footer>,
       ],
     },
     "ref": null,
@@ -96,7 +103,7 @@ ShallowWrapper {
               Hello from Phone Arena
             </h1>
             <h3>
-              Offering the best quality products from proven suppliers.
+              Offering only the best quality products
             </h3>
           </div>,
           "className": "jumbotron jumbotron-fluid",
@@ -114,7 +121,7 @@ ShallowWrapper {
                 Hello from Phone Arena
               </h1>,
               <h3>
-                Offering the best quality products from proven suppliers.
+                Offering only the best quality products
               </h3>,
             ],
             "className": "container",
@@ -138,10 +145,10 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": "Offering the best quality products from proven suppliers.",
+                "children": "Offering only the best quality products",
               },
               "ref": null,
-              "rendered": "Offering the best quality products from proven suppliers.",
+              "rendered": "Offering only the best quality products",
               "type": "h3",
             },
           ],
@@ -195,6 +202,7 @@ ShallowWrapper {
               </div>
             </div>
           </div>,
+          "className": "zone main-section",
         },
         "ref": null,
         "rendered": Object {
@@ -438,6 +446,18 @@ ShallowWrapper {
         },
         "type": "section",
       },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Footer",
+          "className": "zone yellow",
+        },
+        "ref": null,
+        "rendered": "Footer",
+        "type": "footer",
+      },
     ],
     "type": Symbol(react.fragment),
   },
@@ -460,11 +480,13 @@ ShallowWrapper {
                 Hello from Phone Arena
               </h1>
               <h3>
-                Offering the best quality products from proven suppliers.
+                Offering only the best quality products
               </h3>
             </div>
           </header>,
-          <section>
+          <section
+            className="zone main-section"
+          >
             <div
               className="container-fluid text-center options"
             >
@@ -507,6 +529,11 @@ ShallowWrapper {
               </div>
             </div>
           </section>,
+          <footer
+            className="zone yellow"
+          >
+            Footer
+          </footer>,
         ],
       },
       "ref": null,
@@ -525,7 +552,7 @@ ShallowWrapper {
                 Hello from Phone Arena
               </h1>
               <h3>
-                Offering the best quality products from proven suppliers.
+                Offering only the best quality products
               </h3>
             </div>,
             "className": "jumbotron jumbotron-fluid",
@@ -543,7 +570,7 @@ ShallowWrapper {
                   Hello from Phone Arena
                 </h1>,
                 <h3>
-                  Offering the best quality products from proven suppliers.
+                  Offering only the best quality products
                 </h3>,
               ],
               "className": "container",
@@ -567,10 +594,10 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": "Offering the best quality products from proven suppliers.",
+                  "children": "Offering only the best quality products",
                 },
                 "ref": null,
-                "rendered": "Offering the best quality products from proven suppliers.",
+                "rendered": "Offering only the best quality products",
                 "type": "h3",
               },
             ],
@@ -624,6 +651,7 @@ ShallowWrapper {
                 </div>
               </div>
             </div>,
+            "className": "zone main-section",
           },
           "ref": null,
           "rendered": Object {
@@ -867,6 +895,18 @@ ShallowWrapper {
           },
           "type": "section",
         },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Footer",
+            "className": "zone yellow",
+          },
+          "ref": null,
+          "rendered": "Footer",
+          "type": "footer",
+        },
       ],
       "type": Symbol(react.fragment),
     },
@@ -892,6 +932,5 @@ ShallowWrapper {
       },
     },
   },
-  Symbol(enzyme.__childContext__): null,
 }
 `;
