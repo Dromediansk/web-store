@@ -16,18 +16,18 @@ jobs:
       - run: echo "testing stuff"
       - run: npm install
       - run: npm test
-  hithere:
+  merged:
     docker:
       - image: circleci/node:8.15.1
     steps:
       - checkout
-      - run: echo "hellllooooo!"
+      - run: echo "successfully merged!"
 workflows:
   version: 2
   build_test_and_lint:
     jobs:
       - build
-      - hithere
-      - test:
+      - test
+      - merged:
           requires:
-            - hithere
+            - test
