@@ -1,7 +1,6 @@
 import { shallow } from "enzyme";
 import React from "react";
 import Product from "./Product";
-import { shallowToJson } from "enzyme-to-json";
 
 let output;
 
