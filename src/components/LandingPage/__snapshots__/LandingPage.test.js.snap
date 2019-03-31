@@ -80,11 +80,8 @@ ShallowWrapper {
             </div>
           </div>
         </section>,
-        <footer
-          className="zone yellow"
-        >
-          Footer
-        </footer>,
+        <ContactForm />,
+        <Footer />,
       ],
     },
     "ref": null,
@@ -449,14 +446,20 @@ ShallowWrapper {
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": "Footer",
-          "className": "zone yellow",
-        },
+        "nodeType": "function",
+        "props": Object {},
         "ref": null,
-        "rendered": "Footer",
-        "type": "footer",
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
       },
     ],
     "type": Symbol(react.fragment),
@@ -529,11 +532,8 @@ ShallowWrapper {
               </div>
             </div>
           </section>,
-          <footer
-            className="zone yellow"
-          >
-            Footer
-          </footer>,
+          <ContactForm />,
+          <Footer />,
         ],
       },
       "ref": null,
@@ -898,14 +898,20 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": "Footer",
-            "className": "zone yellow",
-          },
+          "nodeType": "function",
+          "props": Object {},
           "ref": null,
-          "rendered": "Footer",
-          "type": "footer",
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
         },
       ],
       "type": Symbol(react.fragment),

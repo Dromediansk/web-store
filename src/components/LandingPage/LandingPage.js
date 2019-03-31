@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./LandingPage.css";
+import ContactForm from "./ContactForm/ContactForm";
+import Footer from "./Footer/Footer";
 
 export default function LandingPage() {
   return (
@@ -34,7 +36,8 @@ export default function LandingPage() {
           </div>
         </div>
       </section>
-      <footer className="zone yellow">Footer</footer>
+      <ContactForm />
+      <Footer />
     </React.Fragment>
   );
 }
