@@ -1,0 +1,33 @@
+.offer-section {
+    padding: 20px;
+    background-color: #eee;
+}
+
+.offer-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2rem 0;
+}
+
+.option {
+    border: 2px solid #ccc;
+    box-shadow: 2px 2px #ddd;
+    height: 20rem;
+    width: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.8s;
+}
+
+.option:hover {
+    background: #FFB34E;
+}
+
+.option-text i,
+.option-text p {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+}
