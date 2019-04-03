@@ -1,33 +1,33 @@
 .offer-section {
-    padding: 20px;
-    background-color: #eee;
+  padding: 20px;
+  background-color: #eee;
 }
 
 .offer-container {
-    display: flex;
-    justify-content: space-evenly;
-    margin: 2rem 0;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 2rem 0;
 }
 
 .option {
-    border: 2px solid #ccc;
-    box-shadow: 2px 2px #ddd;
-    height: 20rem;
-    width: 20rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    cursor: pointer;
-    transition: all 0.8s;
+  border: 2px solid #ccc;
+  box-shadow: 2px 2px #ddd;
+  height: 35vh;
+  width: 20vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.8s;
 }
 
 .option:hover {
-    background: #FFB34E;
+  background: #ffb34e;
 }
 
 .option-text i,
 .option-text p {
-    font-size: 1.8rem;
-    text-transform: uppercase;
+  font-size: 1.6rem;
+  text-transform: uppercase;
 }
