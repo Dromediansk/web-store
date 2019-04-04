@@ -3,7 +3,7 @@ import "./Footer.css";
 
 export default function Footer() {
   return (
-    <footer className="footer-distributed">
+    <footer id="footer" className="footer-distributed">
       <div className="footer-left">
         <h3>
           Phone<span>Arena</span>

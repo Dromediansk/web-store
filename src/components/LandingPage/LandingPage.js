@@ -1,7 +1,7 @@
 import React from "react";
 import "./LandingPage.css";
 
-import Offer from './Offer/Offer';
+import Offer from "./Offer/Offer";
 import ContactForm from "./ContactForm/ContactForm";
 import Footer from "./Footer/Footer";
 
@@ -16,7 +16,7 @@ export default function LandingPage() {
       </header>
       <Offer />
       <ContactForm />
-      <Footer />
+      <Footer id="footer" />
     </React.Fragment>
   );
 }
