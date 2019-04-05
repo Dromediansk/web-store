@@ -1,6 +1,7 @@
 .offer-section {
   padding: 20px;
   background-color: #eee;
+  color: #666666;
 }
 
 .offer-container {
@@ -30,4 +31,5 @@
 .option-text p {
   font-size: 1.6rem;
   text-transform: uppercase;
+  color: #666666;
 }

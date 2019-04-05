@@ -1,0 +1,26 @@
+.about-container {
+  display: flex;
+  flex-direction: row;
+  margin: 1rem;
+}
+
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container img {
+  width: 250px;
+  height: auto;
+  margin: 1rem;
+}
+
+.about-description {
+  margin: 1rem 2rem;
+}
+
+.about-description p {
+  padding: 0 1rem 1rem 1rem;
+}

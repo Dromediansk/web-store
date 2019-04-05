@@ -3,6 +3,7 @@ import "./LandingPage.css";
 
 import Offer from "./Offer/Offer";
 import ContactForm from "./ContactForm/ContactForm";
+import AboutUs from "./AboutUs/AboutUs";
 import Footer from "./Footer/Footer";
 
 export default function LandingPage() {
@@ -15,6 +16,7 @@ export default function LandingPage() {
         </div>
       </header>
       <Offer />
+      <AboutUs />
       <ContactForm />
       <Footer id="footer" />
     </React.Fragment>

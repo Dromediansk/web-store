@@ -37,7 +37,9 @@ ShallowWrapper {
         </header>,
         <Offer />,
         <ContactForm />,
-        <Footer />,
+        <Footer
+          id="footer"
+        />,
       ],
     },
     "ref": null,
@@ -131,7 +133,9 @@ ShallowWrapper {
         "instance": null,
         "key": undefined,
         "nodeType": "function",
-        "props": Object {},
+        "props": Object {
+          "id": "footer",
+        },
         "ref": null,
         "rendered": null,
         "type": [Function],
@@ -164,7 +168,9 @@ ShallowWrapper {
           </header>,
           <Offer />,
           <ContactForm />,
-          <Footer />,
+          <Footer
+            id="footer"
+          />,
         ],
       },
       "ref": null,
@@ -258,7 +264,9 @@ ShallowWrapper {
           "instance": null,
           "key": undefined,
           "nodeType": "function",
-          "props": Object {},
+          "props": Object {
+            "id": "footer",
+          },
           "ref": null,
           "rendered": null,
           "type": [Function],
