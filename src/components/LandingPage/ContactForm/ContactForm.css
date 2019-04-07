@@ -32,7 +32,6 @@ a:focus {
 
 a:hover {
   text-decoration: none;
-  color: #57b846;
 }
 
 /*---------------------------------------------*/
@@ -166,7 +165,7 @@ iframe {
 }
 
 .wrap-contact2 {
-  width: 790px;
+  width: 700px;
   background: #fff;
   border-radius: 10px;
   overflow: hidden;

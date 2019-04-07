@@ -12,14 +12,16 @@ export default function Offer() {
           </div>
         </div>
         <div className="option">
-          <div className="option-text">
-            <i className="fas fa-shopping-cart" />
-            <p>
-              Choose
-              <br />& <br />
-              buy
-            </p>
-          </div>
+          <a href="/store">
+            <div className="option-text">
+              <i className="fas fa-shopping-cart" />
+              <p>
+                Choose
+                <br />& <br />
+                buy
+              </p>
+            </div>
+          </a>
         </div>
         <div className="option">
           <div className="option-text">
