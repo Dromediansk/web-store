@@ -1,6 +1,6 @@
 .offer-section {
   padding: 20px;
-  background-color: #eee;
+  background-color: #ddd;
   color: #666666;
 }
 
@@ -11,7 +11,8 @@
 }
 
 .option {
-  border: 2px solid #ccc;
+  background-color: #eee;
+  border: 2px solid #ddd;
   box-shadow: 2px 2px #ddd;
   height: 35vh;
   width: 20vw;
