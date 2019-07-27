@@ -7,6 +7,7 @@
 .offer-container {
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
   margin: 2rem 0;
 }
 
@@ -14,8 +15,8 @@
   background-color: #eee;
   border: 2px solid #ddd;
   box-shadow: 2px 2px #ddd;
-  height: 35vh;
-  width: 20vw;
+  height: 15rem;
+  width: 15rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -30,7 +31,7 @@
 
 .option-text i,
 .option-text p {
-  font-size: 1.6rem;
+  font-size: 1.3rem;
   text-transform: uppercase;
   color: #666666;
 }

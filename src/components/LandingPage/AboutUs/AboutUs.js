@@ -4,7 +4,7 @@ import "./AboutUs.css";
 
 export default function AboutUs() {
   return (
-    <div className="about-container">
+    <div id="about" className="about-container">
       <div className="image-container">
         <img src="./img/other/img1.jpg" alt="cellphone" />
         <img src="./img/other/img2.jpg" alt="cellphone" />

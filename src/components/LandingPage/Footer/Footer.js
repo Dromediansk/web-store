@@ -10,8 +10,8 @@ export default function Footer() {
         </h3>
 
         <p className="footer-links">
-          <a href="/">Home</a>·<a href="#">Store</a>·<a href="#">About us</a>·
-          <a href="#">Contact</a>
+          <a href="/">Home</a>·<a href="/store">Store</a>·
+          <a href="#about">About us</a>·<a href="#contact">Contact</a>
         </p>
 
         <p className="footer-company-name">Company Name &copy; 2019</p>
@@ -44,21 +44,6 @@ export default function Footer() {
           Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce
           euismod convallis velit, eu auctor lacus vehicula sit amet.
         </p>
-
-        <div className="footer-icons">
-          <a href="#">
-            <i className="fa fa-facebook" />
-          </a>
-          <a href="#">
-            <i className="fa fa-twitter" />
-          </a>
-          <a href="#">
-            <i className="fa fa-linkedin" />
-          </a>
-          <a href="#">
-            <i className="fa fa-github" />
-          </a>
-        </div>
       </div>
     </footer>
   );

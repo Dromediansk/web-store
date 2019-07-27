@@ -4,7 +4,7 @@ import "./ContactForm.css";
 export default function ContactForm() {
   return (
     <React.Fragment>
-      <div className="bg-contact2">
+      <div id="#contact" className="bg-contact2">
         <div className="container-contact2">
           <div className="wrap-contact2">
             <form className="contact2-form validate-form">
